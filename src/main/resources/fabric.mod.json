@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "pacifier",
+  "version": "${version}",
+  "name": "pacifier",
+  "description": "for my one and only, johnny. 01/13/2019",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pacifier/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.eskity.pacifier.client.PacifierClient"
+    ],
+    "main": [
+      "com.eskity.pacifier.Pacifier"
+    ]
+  },
+  "mixins": [
+    "pacifier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
